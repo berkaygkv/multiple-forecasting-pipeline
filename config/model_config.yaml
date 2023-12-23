@@ -1,0 +1,133 @@
+provider_1:
+  seasonality_mode: "multiplicative"
+  changepoint_prior_scale: 0.05
+  changepoint_range: 0.9
+  interval_width: 0.99
+  weekly_seasonality: False
+  yearly_seasonality: True
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 5
+      prior_scale: 85
+      mode: "multiplicative"
+
+provider_2:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.05
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: True
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 85
+      prior_scale: 30
+      mode: "multiplicative"
+
+provider_3:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.85
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: True
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 30
+      prior_scale: 5
+      mode: "multiplicative"
+
+provider_4:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.05
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: True
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 5
+      prior_scale: 30
+      mode: "multiplicative"
+
+provider_5:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.05
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: True
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 5
+      prior_scale: 5
+      mode: "multiplicative"
+
+provider_6:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.05
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: False
+  changepoint_range: 0.5
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 85
+      prior_scale: 30
+      mode: "multiplicative"
+
+provider_7:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.3
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: False
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 85
+      prior_scale: 30
+      mode: "multiplicative"
+
+provider_8:
+  growth: "linear"
+  interval_width: 0.99
+  changepoint_prior_scale: 0.05
+  daily_seasonality: False
+  weekly_seasonality: False
+  yearly_seasonality: True
+  changepoint_range: 0.9
+  seasonality_mode: "multiplicative"
+  custom_seasonalities:
+    seasonality_1:
+      name: "weekly"
+      period: 7
+      fourier_order: 85
+      prior_scale: 85
+      mode: "multiplicative"

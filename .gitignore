@@ -1,0 +1,17 @@
+__pycache__
+.ipynb_checkpoints
+.pytest_cache
+.vscode
+
+*.xlsx
+*.csv
+*.pkl
+
+mlruns
+product/notebooks/*.ipynb
+product/metrics/performance_results.json
+!product/notebooks/provider_1_forecast.ipynb
+
+models/*
+
+venv
